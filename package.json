@@ -5,10 +5,17 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@types/react": "^16.3.12",
+    "@types/react-dom": "^16.0.5",
     "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.3",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
     "ts-jest": "^22.4.4",
     "ts-loader": "^4.2.0",
     "tslint": "^5.9.1",
@@ -23,10 +30,9 @@
     "webpack-serve": "^0.3.1"
   },
   "dependencies": {
-    "@types/react": "^16.3.12",
-    "@types/react-dom": "^16.0.5",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6"
   },
   "private": true,
   "jest": {
