@@ -1,0 +1,31 @@
+{
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true, {
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ],
+    "member-access": [true, "no-public"],
+    "max-classes-per-file": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "interface-name": [true, "never-prefix"],
+    "no-console": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "object-literal-sort-keys": false,
+    "only-arrow-functions": false,
+    "no-unused-variable": true
+  },
+  "linterOptions": {
+    "exclude": ["src/generated/*"]
+  }
+}
