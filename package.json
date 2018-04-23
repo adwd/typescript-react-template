@@ -30,6 +30,7 @@
     "webpack-serve": "^0.3.1"
   },
   "dependencies": {
+    "antd": "^3.4.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "styled-components": "^3.2.6"
